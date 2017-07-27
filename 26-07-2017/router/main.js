@@ -40,7 +40,7 @@ module.exports = function(app) {
         response.render("about.html");
     });
     app.get("/cricket", function(request, response) {
-        response.render("/cricket");
+        response.render("cricket.html");
     });
     app.get("/hockey", function(request, response) {
         response.render("hockey.html")
